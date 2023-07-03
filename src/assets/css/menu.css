@@ -1,0 +1,29 @@
+.main_1 {
+    width: 60px;
+    overflow-y: hidden;
+    transition: width 0.3s ease;
+  }
+  
+  .main_1:hover {
+    width: 250px;
+    overflow-y: auto;
+  }
+  
+  .div_imgnav img {
+    width: 120px;
+    transition: width 0.3s ease;
+  }
+  
+  .main_1:hover .div_imgnav img {
+    width: 140px;
+  }
+  
+  .div_buttonsmain h6,.icon-collapse span {
+    display: none;
+    transition: display 0.3s ease;
+  }
+  
+  .main_1:hover .div_buttonsmain h6,.main_1:hover .icon-collapse span {
+    display: inline-block;
+  }
+  

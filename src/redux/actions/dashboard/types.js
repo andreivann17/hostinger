@@ -1,0 +1,17 @@
+// redux/actions/types.js
+
+// Reducer de dashboard
+export const FETCH_DATA_SUCCESS = 'FETCH_DATA_SUCCESS';
+export const FETCH_DATA_FAILURE = 'FETCH_DATA_FAILURE';
+
+// Reducer de dashboard en Registros
+export const FETCH_DATA_REGISTROS_SUCCESS = 'FETCH_DATA_REGISTROS_SUCCESS';
+export const FETCH_DATA_REGISTROS_FAILURE = 'FETCH_DATA_REGISTROS_FAILURE';
+
+// Reducer de dashboard en Registros
+export const FETCH_DATA_REGISTROS_DETAILS_SUCCESS = 'FETCH_DATA_DETAILS_SUCCESS';
+export const FETCH_DATA_REGISTROS_DETAILS_FAILURE = 'FETCH_DATA_DETAILS_FAILURE';
+
+// Reducer de dashboard General
+export const FETCH_DATA_GENERAL_SUCCESS = 'FETCH_DATA_GENERAL_SUCCESS';
+export const FETCH_DATA_GENERAL_FAILURE = 'FETCH_DATA_GENERAL_FAILURE';

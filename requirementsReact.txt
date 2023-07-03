@@ -1,0 +1,1 @@
+npm install cookies axios react-bootstrap react-redux react-router-dom react-router chart.js react-chartjs-2 react-dom redux-thunk

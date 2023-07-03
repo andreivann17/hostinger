@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.subpanel ::-webkit-scrollbar{
+display: none;
+}
+.subpanel:hover::-webkit-scrollbar{
+display: block;
+} 
+.main_1::-webkit-scrollbar{
+    display: none;
+}
+.main_1:hover::-webkit-scrollbar{
+    display: block;
+} 
+.nav-pills ::-webkit-scrollbar{
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bs-secondary); 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bs-secondary); 
+}

@@ -1,0 +1,5 @@
+// redux/actions/types.js
+
+export const FETCH_REGISTROS_SUCCESS = 'FETCH_REGISTROS_SUCCESS';
+export const FETCH_REGISTROS_FAILURE = 'FETCH_REGISTROS_FAILURE';
+

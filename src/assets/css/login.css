@@ -1,0 +1,12 @@
+.link-pointer{
+  cursor: pointer;
+}
+.btn-facebook *{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.backimg{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../img/fondologin.jpg")
+}
