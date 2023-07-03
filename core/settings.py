@@ -30,6 +30,7 @@ if ipconfig:
     ALLOWED_HOSTS = [
         'localhost',
         '127.0.0.1',
+        'www.openmindhub.site',
     ]
 
     
@@ -79,6 +80,7 @@ if ipconfig:
     "http://localhost:8001",
     "http://127.0.0.1:5173",
     "http://localhost:5173",
+    "https://www.openmindhub.site"
     ]
 
     
@@ -100,7 +102,7 @@ else:
     "http://127.0.0.1:8001",
     "http://localhost:8001",
    "http://192.168.144.1:6379",
-
+    "https://www.openmindhub.site"
     ]
 ROOT_URLCONF = 'core.urls'
 
@@ -136,11 +138,11 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        "NAME":"recursos_humanos",
-        "USER":"root",
-        "PASSWORD":"",
+        "NAME":"recursoshumanos",
+        "USER":"andreivann17",
+        "PASSWORD":"Fifolin123",
         'OPTIONS': {
-            'read_default_file': os.path.join(BASE_DIR,  'database.recursos_humanos'),
+            'read_default_file': os.path.join(BASE_DIR,  'database.recursoshumanos'),
         },
     }
 }
