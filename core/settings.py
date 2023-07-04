@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-u582(noyrzdpo2+%#n4^_%z_rh1jr7fqfn7yvxlc$+ky$^))^&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 ipconfig = True
 if ipconfig:
     
